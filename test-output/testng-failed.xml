@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Browser.ScriptRecord">
+      <class name="Database.ConnectMySQL">
         <methods>
-          <include name="testApp"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="testDB"/>
         </methods>
-      </class> <!-- Browser.ScriptRecord -->
+      </class> <!-- Database.ConnectMySQL -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

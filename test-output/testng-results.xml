@@ -1,25 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16868" started-at="2019-08-13T10:55:11Z" finished-at="2019-08-13T10:55:28Z">
+  <suite name="Suite" duration-ms="68679" started-at="2019-09-23T04:03:11Z" finished-at="2019-09-23T04:04:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16868" started-at="2019-08-13T10:55:11Z" finished-at="2019-08-13T10:55:28Z">
-      <class name="Browser.ScriptRecord">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Browser.ScriptRecord@7b69c6ba]" name="setUp" is-config="true" duration-ms="139" started-at="2019-08-13T10:55:11Z" finished-at="2019-08-13T10:55:11Z">
+    <test name="TestFirefox" duration-ms="45276" started-at="2019-09-23T04:03:11Z" finished-at="2019-09-23T04:03:57Z">
+      <class name="Browser.MultiBrowser">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Browser.MultiBrowser@13c27452]" name="setup" is-config="true" duration-ms="15147" started-at="2019-09-23T04:03:11Z" finished-at="2019-09-23T04:03:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testApp()[pri:0, instance:Browser.ScriptRecord@7b69c6ba]" name="testApp" duration-ms="14007" started-at="2019-08-13T10:55:11Z" finished-at="2019-08-13T10:55:25Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:Browser.MultiBrowser@13c27452]" name="testParameterWithXML" duration-ms="18545" started-at="2019-09-23T04:03:26Z" finished-at="2019-09-23T04:03:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testApp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Browser.ScriptRecord@7b69c6ba]" name="tearDown" is-config="true" duration-ms="2700" started-at="2019-08-13T10:55:25Z" finished-at="2019-08-13T10:55:28Z">
+        </test-method> <!-- testParameterWithXML -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Browser.MultiBrowser@13c27452]" name="afterTest" is-config="true" duration-ms="11567" started-at="2019-09-23T04:03:45Z" finished-at="2019-09-23T04:03:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Browser.ScriptRecord -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- Browser.MultiBrowser -->
+    </test> <!-- TestFirefox -->
+    <test name="TestChrome" duration-ms="23391" started-at="2019-09-23T04:03:57Z" finished-at="2019-09-23T04:04:20Z">
+      <class name="Browser.MultiBrowser">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Browser.MultiBrowser@7cbd213e]" name="setup" is-config="true" duration-ms="3245" started-at="2019-09-23T04:03:57Z" finished-at="2019-09-23T04:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:Browser.MultiBrowser@7cbd213e]" name="testParameterWithXML" duration-ms="19377" started-at="2019-09-23T04:04:00Z" finished-at="2019-09-23T04:04:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Browser.MultiBrowser@7cbd213e]" name="afterTest" is-config="true" duration-ms="767" started-at="2019-09-23T04:04:19Z" finished-at="2019-09-23T04:04:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Browser.MultiBrowser -->
+    </test> <!-- TestChrome -->
+  </suite> <!-- Suite -->
 </testng-results>
